@@ -23,6 +23,6 @@ server.use(route)
 const PORT = process.env.PORT || 3000
 
 //starting a server
-server.listen(PORT, () => {
+server.listen(PORT,'0.0.0.0', () => {
 	console.log(`Server Running on port ${PORT}`)
 })
